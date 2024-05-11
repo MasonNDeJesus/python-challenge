@@ -70,7 +70,7 @@ with open(csvpath, encoding='UTF-8') as csvfile:
 
     #Something fun here
     options = ["y", "n"]
-    user_choice = input("Would you Like to save the results in a text file? y/n: ")
+    user_choice = input("Would you Like to save the results in a new text file? y/n: ")
 
     # The bane of this homework for me, exporting the results to a text file. ChatGPT came up with this line of code. I came up with the idea of adding the yes and no to create it
     if (user_choice == "y"):
